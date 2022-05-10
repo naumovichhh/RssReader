@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/AndroidApps/RssReader/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2985" />
         <entry key="..\:/AndroidApps/RssReader/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.2985" />
+        <entry key="..\:/AndroidApps/RssReader/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidApps/RssReader/app/src/main/res/layout/activity_one_news.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidApps/RssReader/app/src/main/res/layout/row.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidApps/RssReader/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidApps/RssReader/app/src/main/res/menu/one_page_menu.xml" value="0.36666666666666664" />
       </map>
