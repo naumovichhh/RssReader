@@ -28,7 +28,7 @@ class FeedViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.O
         srcImage =
             itemView.findViewById(R.id.imageNews) as ImageView
         itemView.setOnClickListener(this)
-        itemView.setOnLongClickListener (this)
+        itemView.setOnLongClickListener(this)
     }
 
     fun setItemClickListener(itemClickListener: ItemClickListener) {
@@ -59,6 +59,7 @@ class FeedAdapter(private val rssObject: RSSObject, private val mContext: Contex
                 intent.putExtra("DATE", rssObject.items[pos].pubDate)
                 intent.putExtra("CONTENT", rssObject.items[pos].content)
                 intent.putExtra("AUTHOR", rssObject.items[pos].author)
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 mContext.startActivity(intent)
             }
         })
